@@ -1,17 +1,17 @@
 BOOL: Fast special clustering via discretization
 ================================================
 
-A fast spatial clustering algorithm for a multivariate dataset.
+A fast spatial clustering algorithm for multivariate data.
 
 Summary
 -------
 
-This is a fast spatial clustering algorithm for a multivariate dataset, which can detect arbitrarily shaped clusters and is noise tolerant.
+This is a fast spatial clustering algorithm for multivariate (real-valued) data, which can detect arbitrarily shaped clusters and is noise tolerant.
 This algorithm has the following advantages:
 
-* **Fast**; the time complexity is linear in the number of data points,
+* **Fast**; the time complexity is linear in the number of data points; it is faster than *K*-means,
 * **Frexible**; it can find arbitrarily shaped clusters (for example, *K*-means finds only convex clusters), and
-* **Easy to use**; it is robust to parameter setting, you need to set only the number of clusters and do not need to be careful for the other two parameters in most cases.
+* **Easy to use**; it is robust to parameter setting. The number of clusters is needed, but you do not need to be careful for the other two parameters in most cases.
 
 Please see the following paper for the detailed information about this method and refer it in your published research:
 

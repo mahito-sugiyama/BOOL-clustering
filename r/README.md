@@ -1,7 +1,7 @@
 BOOL: Fast special clustering via discretization
 ================================================
 
-A fast spatial clustering algorithm for a multivariate dataset.
+A fast spatial clustering algorithm for multivariate data.
 
 Installation
 ------------
