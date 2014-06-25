@@ -1,0 +1,11 @@
+Package: BOOL
+Type: Package
+Title: Fast spatial clustering via discretization
+Version: 1.0
+Date: 2014-06-25
+Author: Mahito Sugiyama
+Maintainer: Mahito Sugiyama <mahito@ar.sanken.osaka-u.ac.jp>
+Description: This algorithm performs fast spatial clustering for a multivariate dataset, which can detect arbitrarily shaped clusters and is noise tolerant.
+License: GPL (>= 2)
+Imports: Rcpp (>= 0.11.2)
+LinkingTo: Rcpp
