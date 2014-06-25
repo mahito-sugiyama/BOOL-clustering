@@ -7,6 +7,7 @@ Installation
 ------------
 
 This is an R package of the BOOL clustering algorithm.
+The `Rcpp` package is needed.
 To install it into your R environment, get the directory `BOOL` and type:
 
 	$ R CMD BUILD BOOL

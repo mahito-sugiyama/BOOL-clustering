@@ -56,7 +56,7 @@ int main(int argc, char **argv) {
 	   << TAB << "-o: output file name       (default value: output)" << endl
 	   << TAB << "-r: reachability distance  (default value: 1)" << endl
 	   << TAB << "-n: reachability parameter (default value: 50)" << endl
-	   << "Example: ./bool -c 6 -i input.csv -o output.txt" << endl;
+	   << "Example: ./bool -c 6" << endl;
       exit(0);
     case 'c':
       param[2] = atoi(optarg);
