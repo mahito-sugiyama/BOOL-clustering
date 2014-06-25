@@ -10,13 +10,14 @@ Given a multivariate dataset, this C++ program performs clustering and produces 
 To use it, type:
 
 	$ make
-	$ ./bool -c <number of clusters> -i <input_file> -o <output_file>
+	$ ./bool -c <number_of_clusters> -i <input_file> -o <output_file>
 
-* `<number of clusters` specifies the minimum number of clusters to be produced.
-* A dataset is read from `<input_file>`, which should be a comma-separated text file without row and column names. Rows and columns correspond to respective data points and dimensions (default value: "input").
+* `<number_of_clusters` specifies the minimum number of clusters to be produced.
+* A dataset is read from `<input_file>`, which should be a comma-separated text file without row and column names.
+	Rows and columns correspond to respective data points and dimensions (default value: "input").
 * Resulting class labels are written to `<output_file>` (default value: "output").
-* The noise parameter can be set by the option `-n` (default value: 50).
-* The distance parameter can be set by the option `-r` (default value: 1).
+* The noise parameter is set by the option `-n` (default value: 50).
+* The distance parameter is set by the option `-r` (default value: 1).
 * Please use the `-h` option to get more detailed usage information.
 
 
