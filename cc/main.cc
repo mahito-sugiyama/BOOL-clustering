@@ -22,9 +22,6 @@
     Sugiyama, M., Yamamoto, A.: A Fast and Flexible Clustering Algorithm Using Binary Discretization,
     Proceedings of the 2011 IEEE International Conference on Data Mining (ICDM 2011), 1212-1217, 2011.
 */
-#include "header.h"
-#include "utility.h"
-#include "io.h"
 #include "bool.h"
 
 int main(int argc, char **argv) {

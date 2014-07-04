@@ -1,4 +1,8 @@
 // copyright: see the header of "main.cc"
+#include "header.h"
+#include "utility.h"
+#include "io.h"
+
 void initialize(vector<struct node>& tree, vector<int>& index) {
   for (unsigned int i = 0; i < index.size(); i++) {
     index[i] = i;
